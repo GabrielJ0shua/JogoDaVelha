@@ -1,11 +1,26 @@
 body {
-	background: yellow;
+	background: #fbec5d;
+}
+div{
+	max-width: 50%;
+}
+div button, div input{
+	background: #ffcbdb;
 }
 
+div button{
+	margin: 0;
+	background: #00ced1;
+}
+
+#bt_3_0{
+	background: #ffcbdb;
+}
 #grade {
 	display: grid;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 100px 100px 100px;
+	
 }
 
 #grade button {
@@ -19,7 +34,8 @@ body {
 }
 
 #reiniciar button {
-	font-size: 15pt
+	font-size: 15pt;
+	margin: 0;
 }
 
 #jogo{
@@ -35,6 +51,6 @@ body {
 	color: red;
 }
 #return button{
-    display: block;
-    
+	display: block;
 }
+

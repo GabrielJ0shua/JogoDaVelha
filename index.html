@@ -1,6 +1,5 @@
 <!doctype html>
-
-<html>
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8" />
 		<title>Jogo da Velha</title>
@@ -8,40 +7,40 @@
 		<script src="velha.js"></script>
 	</head>
 	<body>
-		
-	<div id="jogo">
-		<div id="grade">
-			<button id="bt_0_0" onclick="js:clicado(this)" />
-			<button id="bt_0_1" onclick="js:clicado(this)" />
-			<button id="bt_0_2" onclick="js:clicado(this)" />
-			
-			<button id="bt_1_0" onclick="js:clicado(this)" />
-			<button id="bt_1_1" onclick="js:clicado(this)" />
-			<button id="bt_1_2" onclick="js:clicado(this)" />
-			
-			<button id="bt_2_0" onclick="js:clicado(this)" />
-			<button id="bt_2_1" onclick="js:clicado(this)" />
-			<button id="bt_2_2" onclick="js:clicado(this)" />
-		</div>
-		<br />
-		<div id="gameover"></div>
-		<div>
-			<div >
-				<h5>Vitórias X:</h5> <h2 id="px">0</h2>
+			<div id="jogo">
+			<div id="grade">
+				<button id="bt_0_0" onclick="js:clicado(this)" />
+				<button id="bt_0_1" onclick="js:clicado(this)" />
+				<button id="bt_0_2" onclick="js:clicado(this)" />
+				
+				<button id="bt_1_0" onclick="js:clicado(this)" />
+				<button id="bt_1_1" onclick="js:clicado(this)" />
+				<button id="bt_1_2" onclick="js:clicado(this)" />
+				
+				<button id="bt_2_0" onclick="js:clicado(this)" />
+				<button id="bt_2_1" onclick="js:clicado(this)" />
+				<button id="bt_2_2" onclick="js:clicado(this)" />
 			</div>
-			<div >
-				<h5>Vitórias O:</h5> <h2 id="po">0</h2>
+			<br/>
+			<div id="gameover"></div>
+				<table>
+					<tr>
+						<td><h5>Vitórias X:</h5></td>
+						<td><h5>Vitórias O:</h5></td>
+						<td><h5>Empates:</h5></td>
+					</tr>
+					<tr>
+						<td><h2 id="px">0</h2></td>
+						<td><h2 id="po">0</h2></td>
+						<td><h2 id="pe">0</h2></td>
+					</tr>
+				</table>
 			</div>
-			<div>
-				<h5>Empates:</h5> <h2 id="pe">0</h2>
+			<div id="reiniciar">
+				<button id="bt_3_0" onclick="js:depoisqueacabareinicia()" background="#ffcbdb"> reiniciar </button>
 			</div>
-		</div>
-		
-		<div id="reiniciar">
-			<button id="bt_3_0" onclick="js:depoisqueacabareinicia()" > reiniciar </button>
-		<div>
-		<input type="button" onclick="js:desfazendo()" value="desfazer"/>
-		
-		</div>
+			<div id="reiniciar">
+				<input type="button" onclick="js:desfazendo()" value="desfazer"/>
+			</div>
 	</body>
 </html>
