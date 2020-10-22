@@ -22,7 +22,6 @@
 				<button id="bt_2_2" onclick="js:clicado(this)" />
 			</div>
 			<br/>
-			<div id="gameover"></div>
 				<table>
 					<tr>
 						<td><h5>Vitórias X:</h5></td>
@@ -34,13 +33,18 @@
 						<td><h2 id="po">0</h2></td>
 						<td><h2 id="pe">0</h2></td>
 					</tr>
+					<tr>
+						<td>
+							<div id="reiniciar">
+								<button id="bt_3_0" onclick="js:depoisqueacabareinicia()"> Reiniciar </button>
+							</div>
+						</td>
+						<td>
+							<div id="desfazer">
+								<input id="bt_4_0" type="button" onclick="js:desfazendo()" value="Desfazer"/>
+							</div>
+						</td>
+					</tr>
 				</table>
-			</div>
-			<div id="reiniciar">
-				<button id="bt_3_0" onclick="js:depoisqueacabareinicia()" background="#ffcbdb"> reiniciar </button>
-			</div>
-			<div id="reiniciar">
-				<input type="button" onclick="js:desfazendo()" value="desfazer"/>
-			</div>
 	</body>
 </html>

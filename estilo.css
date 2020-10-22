@@ -4,36 +4,32 @@ body {
 div{
 	max-width: 50%;
 }
-div button, div input{
-	background: #ffcbdb;
+#bt_4_0, #bt_3_0{
+	background: #8cdee6;
 }
 
-div button{
+#bt_0_0, #bt_0_1, #bt_0_2,  #bt_1_0, #bt_1_1, #bt_1_2, #bt_2_0, #bt_2_1, #bt_2_2{
 	margin: 0;
-	background: #00ced1;
+	background: #59dcff;
 }
 
-#bt_3_0{
-	background: #ffcbdb;
-}
 #grade {
 	display: grid;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 100px 100px 100px;
-	
 }
 
 #grade button {
 	font-size: 50pt;
 }
 
-#reiniciar{
+#reiniciar, #desfazer{
 	display: grid;
 	grid-template-columns: 100px;
 	grid-template-rows: 50px;
 }
 
-#reiniciar button {
+#reiniciar {
 	font-size: 15pt;
 	margin: 0;
 }
@@ -46,11 +42,6 @@ div button{
 	font-size: 60pt;
 }
 
-#gameover {
-	font-size: 70pt;
-	color: red;
-}
 #return button{
 	display: block;
 }
-
